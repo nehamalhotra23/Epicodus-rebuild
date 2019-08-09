@@ -1,4 +1,30 @@
-li a {
-  display: block;
-  width: 60px;
+video {
+  width: 100%;
+  height: auto;
 }
+p {
+  font-style: italic;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+  font-style: bold;
+}
+
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ #epicodus {
+   color: red;
+ }
